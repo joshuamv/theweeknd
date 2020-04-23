@@ -116,6 +116,7 @@ h2{
   flex-direction: row;
   flex-wrap: wrap;
 	align-items: flex-start;
+	align-content: flex-start;
   margin: auto;
 }
 
