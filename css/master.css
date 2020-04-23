@@ -41,9 +41,14 @@ header{
   /* fill screen but keep proportions */
 }
 
-.title-div{
+.hero-text{
   display: flex;
   flex-direction: row;
+}
+
+.title-div{
+	display: flex;
+	flex-direction: row;
 }
 
 h1{
@@ -51,6 +56,10 @@ h1{
   font-size: 200px;
   font-weight: 500;
   color: #ED1B1B;
+}
+
+.dark{
+	color: #BA1916;
 }
 
 .title-extras{
