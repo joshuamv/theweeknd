@@ -74,7 +74,7 @@ header{
 	font-size: 14px;
 	text-decoration: none;
   color: #D8201D;
-  margin-left: 5px;
+  margin-right: 5px;
 	transition: 0.33s;
 }
 
@@ -160,7 +160,7 @@ h3{
 }
 
 .separator{
-  margin-left: 5px;
+  margin-right: 5px;
   width: 1px;
   height: 16px;
   background-color: #BA1916;
