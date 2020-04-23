@@ -46,6 +46,8 @@ header{
 	hidden;
 	max-width: 100%;
 	margin-top: -60px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -67,9 +69,9 @@ header{
 	flex-direction: row;
 	height: auto;
 	max-width: 90vw;
-	margin-top: -100px;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-top: -80px;
+	margin-left: auto;
+	margin-right: auto;
 	z-index: 100;
 }
 
