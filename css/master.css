@@ -50,6 +50,8 @@ header{
 .title-div{
 	display: flex;
 	flex-direction: row;
+	height: auto;
+	width: 90vw;
 }
 
 h1{
