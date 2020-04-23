@@ -57,7 +57,7 @@ h1{
   font-weight: 500;
   color: #ED1B1B;
 	letter-spacing: -0.06em;
-	margin-left: 5px;
+	margin-left: 0.06em;
 }
 
 .dark{
@@ -124,7 +124,8 @@ h2{
 }
 
 .album-art{
-
+	width: 200px;
+	height: 200px;
 }
 
 .album-controls{
