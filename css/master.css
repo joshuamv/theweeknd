@@ -131,6 +131,7 @@ h2{
 .album-art{
 	width: 200px;
 	height: 200px;
+	box-shadow: 0px 0px 30px rgba(255, 255, 255, .10);
 }
 
 .album-img{
