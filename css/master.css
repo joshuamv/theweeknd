@@ -56,19 +56,6 @@ header{
 	width: 90vw;
 }
 
-h1{
-  font-family: Futura, sans-serif;
-  font-size: 200px;
-  font-weight: 500;
-  color: #ED1B1B;
-	letter-spacing: -0.06em;
-	margin-left: 0.06em;
-}
-
-.dark{
-	color: #BA1916;
-}
-
 .title-extras{
   display: flex;
   flex-direction: column;
