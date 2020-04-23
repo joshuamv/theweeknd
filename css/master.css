@@ -39,7 +39,9 @@ header{
 }
 
 .intro-vid{
-  /* fill screen but keep proportions */
+	width: 100vw;
+	height: auto;
+	min-height: 50vh;
 }
 
 .hero-text{
