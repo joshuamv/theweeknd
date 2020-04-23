@@ -129,6 +129,11 @@ h2{
 	height: 200px;
 }
 
+.album-img{
+	width: auto;
+	height: auto;
+}
+
 .album-controls{
 	position: relative;
 }
