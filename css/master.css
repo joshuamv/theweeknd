@@ -24,6 +24,17 @@ time, mark, audio, video {
 
 /* end of reset */
 
+
+/* media queries */
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+	.embed-container{
+	   display:none;
+  }
+}
+
+/* end of media queries */
+
 body{
   display: flex;
   flex-direction: column;
@@ -70,8 +81,8 @@ header{
 	height: auto;
 	background-color: #121212;
 	max-width: 90vw;
-	margin-top: -140px;
-	padding-top: 30px;
+	margin-top: -160px;
+	padding-top: 40px;
 	padding-left: 10vw;
 	padding-right: 10vw;
 	z-index: 100;
