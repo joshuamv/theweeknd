@@ -129,7 +129,7 @@ h2{
 	margin-bottom: 25px;
   font-family: Futura, sans-serif;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 	margin-left: 30px;
 }
@@ -228,7 +228,6 @@ footer{
 }
 
 h4{
-	margin-top: 10px;
   font-family: Futura, sans-serif;
   color: #E7E7E7;
   font-size: 18px;
@@ -246,7 +245,7 @@ p{
 .social-bar{
 	display: flex;
 	flex-direction: row;
-	margin-top: 60px;
+	margin-top: 100px;
 	margin-bottom: 100px;
 	margin-right: auto;
 	margin-left: auto;
@@ -254,9 +253,9 @@ p{
 }
 
 .social-icon{
-	height: 50px;
-	width: 50px;
-	background: white;
+	height: 30px;
+	width: 30px;
+	background: #E7E7E7;
 	margin: 5px;
 }
 
