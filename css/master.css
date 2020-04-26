@@ -150,7 +150,7 @@ h2{
 .album-art:hover{
 }
 
-.album-img:before {
+.album-art:before {
 	content: '';
   display: block;
   position: absolute;
@@ -162,7 +162,7 @@ h2{
   transition: 0.33s;
 }
 
-.album-img:hover:before {
+.album-art:hover:before {
 	background: linear-gradient(to bottom, transparent 20%, black 150%);
 	box-shadow: 0px 0px 30px rgba(255, 255, 255, .30);
 	opacity: 1;
