@@ -25,15 +25,21 @@ time, mark, audio, video {
 /* end of reset */
 
 
-/* media queries */
+/* breakpoints */
 
 @media screen and (max-width: 767px) and (min-width: 0px) {
 	.embed-container{
 	   display:none;
   }
+	.title-div{
+		margin-top: 20px;
+	}
+	header{
+		margin-bottom: 60px;
+	}
 }
 
-/* end of media queries */
+/* end of breakpoints */
 
 body{
   display: flex;
