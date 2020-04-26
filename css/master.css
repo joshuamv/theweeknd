@@ -140,6 +140,10 @@ h2{
 	margin-bottom: 70px;
 }
 
+#no-margin-album{
+	margin-right: 0px;
+}
+
 .album-art{
 	width: 200px;
 	height: 200px;
