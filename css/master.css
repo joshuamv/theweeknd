@@ -24,23 +24,6 @@ time, mark, audio, video {
 
 /* end of reset */
 
-
-/* breakpoints */
-
-@media screen and (max-width: 767px) and (min-width: 0px) {
-	.embed-container{
-	   display:none;
-  }
-	.title-div{
-		margin-top: 20px;
-	}
-	header{
-		margin-bottom: 60px;
-	}
-}
-
-/* end of breakpoints */
-
 body{
   display: flex;
   flex-direction: column;
@@ -238,3 +221,19 @@ h3{
   height: 16px;
   background-color: #BA1916;
 }
+
+/* breakpoints */
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+	.embed-container{
+	   display:none;
+  }
+	.title-div{
+		margin-top: 20px;
+	}
+	header{
+		margin-bottom: 60px;
+	}
+}
+
+/* end of breakpoints */
