@@ -208,7 +208,7 @@ h3{
 	margin-left: 3px;
 }
 
-.stream-buy{
+.button-div{
   display: flex;
   flex-direction: row;
 }
@@ -220,6 +220,34 @@ h3{
   width: 1px;
   height: 16px;
   background-color: #BA1916;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+
+h4{
+	margin-top: 10px;
+  font-family: 'Futura-CondensedMedium', Futura, sans-serif;
+  color: #D8201D;
+  font-size: 18px;
+}
+
+p{
+	margin-top: 10px;
+	font-family: Futura, sans-serif;
+	color: #BA1916;
+	font-size: 14px;
+}
+
+.social-bar{
+	display: flex;
+	flex-direction: row;
+}
+
+.social-icon{
+
 }
 
 /* breakpoints */
