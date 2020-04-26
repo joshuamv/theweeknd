@@ -91,8 +91,13 @@ header{
 	font-weight: 500;
 	font-size: 14px;
 	text-decoration: none;
-  color: #D8201D;
+	color: #E7E7E7;
+  background-color: #D8201D;
   margin-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	transition: 0.33s;
 }
 
