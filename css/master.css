@@ -144,10 +144,12 @@ h2{
 .album-art{
 	width: 200px;
 	height: 200px;
+	box-shadow: 0px 0px 30px rgba(255, 255, 255, .10);
 	transition: 0.33s;
 }
 
 .album-art:hover{
+	box-shadow: 0px 0px 30px rgba(255, 255, 255, .30);
 }
 
 .album-art:before {
@@ -156,17 +158,15 @@ h2{
   position: absolute;
   height: 100%;
   width: 100%;
+	overflow: hidden;
   background: linear-gradient(to bottom, transparent 0%, transparent 100%);
-	box-shadow: 0px 0px 30px rgba(255, 255, 255, .10);
   opacity: 0;
   transition: 0.33s;
 }
 
 .album-art:hover:before {
 	background: linear-gradient(to bottom, transparent 20%, black 150%);
-	box-shadow: 0px 0px 30px rgba(255, 255, 255, .30);
 	opacity: 1;
-	transition: 0.33s;
 }
 
 .album-img{
