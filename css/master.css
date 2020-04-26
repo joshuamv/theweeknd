@@ -70,7 +70,8 @@ header{
 	height: auto;
 	background-color: #121212;
 	max-width: 90vw;
-	margin-top: -80px;
+	margin-top: -140px;
+	padding-top: 30px;
 	padding-left: 10vw;
 	padding-right: 10vw;
 	z-index: 100;
