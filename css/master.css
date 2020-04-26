@@ -231,15 +231,16 @@ footer{
 h4{
   font-family: Futura, sans-serif;
   color: #E7E7E7;
-  font-size: 18px;
+  font-size: 15px;
 	margin-left: 30px;
+	margin-top: -15px;
 }
 
 p{
-	margin-top: 10px;
+	margin-top: 3px;
 	font-family: Futura, sans-serif;
 	color: #E7E7E7;
-	font-size: 14px;
+	font-size: 15px;
 	margin-left: 30px;
 }
 
