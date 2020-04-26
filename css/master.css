@@ -266,6 +266,10 @@ p{
 	   display:none;
   }
 
+	.page-section{
+	  width: 90%;
+	}
+
 	.title-div{
 		margin-top: 20px;
 	}
