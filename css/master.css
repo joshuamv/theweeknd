@@ -42,8 +42,7 @@ header{
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
-	overflow:
-	hidden;
+	overflow: hidden;
 	max-width: 100%;
 	margin-top: -60px;
 	margin-left: 50px;
@@ -68,6 +67,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	height: auto;
+	background-color: #121212;
 	max-width: 90vw;
 	margin-top: -80px;
 	margin-left: auto;
