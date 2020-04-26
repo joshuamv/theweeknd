@@ -229,7 +229,7 @@ footer{
 
 h4{
 	margin-top: 10px;
-  font-family: 'Futura-CondensedMedium', Futura, sans-serif;
+  font-family: Futura, sans-serif;
   color: #E7E7E7;
   font-size: 18px;
 	margin-left: 30px;
@@ -246,10 +246,17 @@ p{
 .social-bar{
 	display: flex;
 	flex-direction: row;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
 }
 
 .social-icon{
-
+	height: 50px;
+	width: 50px;
+	background: white;
 }
 
 /* breakpoints */
