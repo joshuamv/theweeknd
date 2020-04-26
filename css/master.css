@@ -228,12 +228,37 @@ h3{
 	.embed-container{
 	   display:none;
   }
+
 	.title-div{
 		margin-top: 20px;
 	}
+
 	header{
 		margin-bottom: 60px;
 	}
+
+	.album-art{
+		width: 100px;
+		height: 100px;
+		box-shadow: 0px 0px 30px rgba(255, 255, 255, .10);
+		transition: 0.33s;
+	}
+
+	.album-art:before {
+		content: '';
+	  display: flex;
+	  position: absolute;
+	  height: 100%;
+	  width: 100%;
+		max-height: 100px;
+		max-width: 100px;
+		overflow: hidden;
+	  background: linear-gradient(to bottom, transparent 0%, transparent 100%);
+	  opacity: 0;
+	  transition: 0.33s;
+	}
+
+
 }
 
 /* end of breakpoints */
