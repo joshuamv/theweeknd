@@ -289,6 +289,19 @@ p{
 		margin-top: 10px;
 	}
 
+	.album-title{
+		justify-content: center;
+	}
+
+	.button-div{
+		justify-content: center;
+	}
+
+	.button{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 
 }
 
