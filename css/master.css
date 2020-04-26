@@ -231,7 +231,6 @@ h4{
   font-family: Futura, sans-serif;
   color: #E7E7E7;
   font-size: 18px;
-	margin-left: 30px;
 }
 
 p{
@@ -239,7 +238,6 @@ p{
 	font-family: Futura, sans-serif;
 	color: #E7E7E7;
 	font-size: 14px;
-	margin-left: 30px;
 }
 
 .social-bar{
@@ -298,6 +296,7 @@ p{
 	}
 
 	.button{
+		margin-top: 10px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
