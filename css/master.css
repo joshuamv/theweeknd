@@ -340,6 +340,8 @@ p{
 
 .social-icon{
 	align-self: flex-end;
+	opacity: 100%;
+	transition: 0.33s;
 }
 
 .social-icon:hover{
