@@ -50,6 +50,11 @@ body{
 	margin-right: 5%;
 }
 
+.player-icon{
+	height: auto;
+	width: auto;
+}
+
 #previous-button{
 
 }
