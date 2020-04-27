@@ -284,14 +284,14 @@ p{
 }
 
 .social-icon-div{
+	display: flex;
 	height: auto;
 	width: auto;
 	margin: 5px;
 }
 
 .social-icon{
-	margin: auto;
-	margin-bottom: 0px;
+	align-self: flex-end;
 }
 
 /* breakpoints */
