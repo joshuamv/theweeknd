@@ -199,6 +199,10 @@ h3{
 }
 
 #preview{
+	background-color: #3A3A3A;
+}
+
+#preview:hover{
 	background-color: #616161;
 }
 
