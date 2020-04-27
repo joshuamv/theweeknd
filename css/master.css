@@ -27,7 +27,35 @@ time, mark, audio, video {
 body{
   display: flex;
   flex-direction: column;
-  background: #121212;
+  background: #BA1916;
+}
+
+/* music player */
+
+#music-player{
+	position: fixed;
+	height: 20vh;
+	background-color:
+}
+
+.music-controls{
+
+}
+
+#previous-button{
+
+}
+
+#play-button{
+
+}
+
+#skip-button{
+
+}
+
+#song-name{
+
 }
 
 /* header */
