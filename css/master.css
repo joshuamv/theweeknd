@@ -203,7 +203,7 @@ h3{
 	background-color: #D8201D;
 }
 
-#preview .button{
+#preview{
 	font-family: Futura, sans-serif;
 	font-weight: 500;
 	font-size: 11px;
@@ -221,7 +221,7 @@ h3{
 	transition: 0.33s;
 }
 
-#preview .button:hover{
+#preview:hover{
 	color: white;
 	background-color: #616161;
 }
