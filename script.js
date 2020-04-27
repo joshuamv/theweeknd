@@ -14,6 +14,7 @@ function setup(){
 	// react to click event
 	btn.addEventListener('click', function(){
 		document.getElementById("music-player").style.display = "flex";
+		alert("Hello!");
 	}
 	});
 }
