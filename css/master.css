@@ -203,12 +203,12 @@ h3{
 	background-color: #D8201D;
 }
 
-#preview.button{
+#preview .button{
 	background-color: #3A3A3A;
 	transition: 0.33s;
 }
 
-#preview.button:hover{
+#preview .button:hover{
 	color: white;
 	background-color: #616161;
 }
