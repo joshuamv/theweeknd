@@ -44,7 +44,7 @@ body{
 }
 
 #previous-button{
-	
+
 }
 
 #play-button{
@@ -287,7 +287,7 @@ p{
 .social-icon{
 	height: 30px;
 	width: 30px;
-	background: #E7E7E7;
+	padding: auto;
 	margin: 5px;
 }
 
