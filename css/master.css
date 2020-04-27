@@ -145,8 +145,8 @@ h2{
 
 .album-art:hover:before {
 	background: linear-gradient(to bottom, transparent 20%, black 150%);
-	opacity: 1; */
-}
+	opacity: 1;
+}*/
 
 .album-img{
 	width: 100%;
