@@ -27,7 +27,7 @@ time, mark, audio, video {
 body{
   display: flex;
   flex-direction: column;
-  background: #BA1916;
+  background: #121212;
 }
 
 /* music player */
@@ -35,7 +35,7 @@ body{
 #music-player{
 	position: fixed;
 	height: 20vh;
-	background-color:
+	background-color: #BA1916;
 }
 
 .music-controls{
