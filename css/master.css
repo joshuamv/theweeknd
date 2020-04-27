@@ -207,36 +207,13 @@ h3{
 	margin-right: 0px;
 }
 
-.preview-button{
+.secondary-button{
 	background-color: #3A3A3A;
 }
 
-.preview-button:hover{
+.secondary-button:hover{
 	background-color: #616161;
 }
-
-/* #preview{
-	font-family: Futura, sans-serif;
-	font-weight: 500;
-	font-size: 11px;
-	letter-spacing: 0.05em;
-	text-decoration: none;
-	color: #E7E7E7;
-	background-color: #3A3A3A;
-	margin-right: 5px;
-	margin-top: 5px;
-	padding-top: 4px;
-	padding-bottom: 3px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 50px;
-	transition: 0.33s;
-}
-
-#preview:hover{
-	color: white;
-	background-color: #616161;
-} */
 
 .separator{
 	margin: auto;
