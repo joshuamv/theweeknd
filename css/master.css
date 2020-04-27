@@ -35,6 +35,7 @@ body{
 #music-player{
 	display: flex;
 	flex-direction: row;
+	align-items: stretch;
 	position: fixed;
 	height: 10vh;
 	width: 100%;
@@ -43,6 +44,11 @@ body{
 	z-index: 10000;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#music-controls{
+	display: flex;
+	height: auto;
 }
 
 .player-item{
