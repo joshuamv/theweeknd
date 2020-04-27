@@ -10,9 +10,11 @@ window.addEventListener("DOMContentLoaded", setup);
 function setup(){
 	// set the button var
 	btn = document.getElementById("preview-after-hours");
-	
+
 	// react to click event
-	btn.addEventListener('click', previewMusic()
+	btn.addEventListener('click', function(){
+		document.getElementById("music-player").style.display = "flex";
+	}
 	});
 }
 
