@@ -198,6 +198,10 @@ h3{
 	transition: 0.33s;
 }
 
+#preview{
+	background-color: #616161;
+}
+
 #last-button{
 	margin-right: 0px;
 }
