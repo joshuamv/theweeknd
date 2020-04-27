@@ -33,15 +33,12 @@ body{
 /* music player */
 
 #music-player{
+	display: none;
 	position: fixed;
 	height: 10vh;
 	width: 100%;
 	background-color: #BA1916;
 	bottom: 0;
-}
-
-#music-player{
-	 display:none;
 }
 
 .music-controls{
