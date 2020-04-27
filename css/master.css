@@ -205,9 +205,11 @@ h3{
 
 #preview{
 	background-color: #3A3A3A;
+	transition: 0.33s;
 }
 
 #preview:hover{
+	color: white;
 	background-color: #616161;
 }
 
