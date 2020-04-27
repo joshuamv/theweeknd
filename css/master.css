@@ -340,12 +340,12 @@ p{
 
 .social-icon{
 	align-self: flex-end;
-	opacity: 1;
+	opacity: 0.5;
 	transition: 0.33s;
 }
 
 .social-icon:hover{
-	opacity: 0.5;
+	opacity: 1;
 }
 
 /* breakpoints */
