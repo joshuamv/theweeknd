@@ -71,9 +71,18 @@ body{
 #now-playing{
 	display: flex;
 	flex-direction: row;
+}
+
+#song-name{
 	font-family: Futura, sans-serif;
-  color: #FFFFFF;
-  font-size: 24px;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+#album-name{
+	font-family: Futura, sans-serif;
+	color: #EC5453;
+	font-size: 24px;
 }
 
 #close-button{
