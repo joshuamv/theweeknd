@@ -8,21 +8,20 @@ window.addEventListener("DOMContentLoaded", setup);
 
 // setup your page
 function setup(){
-	// set the button var
-	btn = document.getElementById("preview-after-hours");
-
 	// react to click event
-	btn.addEventListener('click', function(){
-		document.getElementById("music-player").style.display = "flex";
-		alert("Hello!");
-	}
-	});
+
+	// btn.addEventListener('click', function(){
+	// 	document.getElementById("music-player").style.display = "flex";
+	// 	alert("Hello!");
+	// }
+	// });
 }
 
 
 //////////functions//////////
 
-function previewMusic(){
+function previewMusic(album){
+	btn = document.getElementById("album");
 	//show music player
 	// show pause button
 	// hide play button
