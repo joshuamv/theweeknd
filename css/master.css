@@ -392,6 +392,11 @@ p{
 		margin-left: 0px;
 	}
 
+	#music-player{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
 }
 
 /* end of breakpoints */
