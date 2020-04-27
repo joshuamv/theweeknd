@@ -397,6 +397,10 @@ p{
 		padding-right: 5%;
 	}
 
+	#album-name{
+		display:none;
+	}
+
 }
 
 /* end of breakpoints */
