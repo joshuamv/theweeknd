@@ -40,6 +40,10 @@ body{
 	bottom: 0;
 }
 
+#music-player{
+	 display:none;
+}
+
 .music-controls{
 
 }
