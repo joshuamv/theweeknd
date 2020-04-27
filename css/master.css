@@ -49,6 +49,7 @@ body{
 #music-controls{
 	display: flex;
 	height: auto;
+	width: 82%;
 }
 
 .player-item{
