@@ -401,6 +401,12 @@ p{
 		display:none;
 	}
 
+	.player-item{
+		margin: auto;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+
 }
 
 /* end of breakpoints */
