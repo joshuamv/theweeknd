@@ -33,20 +33,18 @@ body{
 /* music player */
 
 #music-player{
-	display: none;
+	display: flex;
+	flex-direction: row;
 	position: fixed;
 	height: 10vh;
 	width: 100%;
+	padding: 10%;
 	background-color: #BA1916;
 	bottom: 0;
 }
 
-.music-controls{
-
-}
-
 #previous-button{
-
+	
 }
 
 #play-button{
