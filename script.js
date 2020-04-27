@@ -19,10 +19,6 @@ function setup(){
 
 //////////functions//////////
 
-function clickFn(){
-	alert("Hello!");
-}
-
 function previewMusic(){
 	//show music player
 	// show pause button

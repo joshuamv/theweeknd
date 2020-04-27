@@ -30,6 +30,10 @@ body{
   background: #121212;
 }
 
+a {
+    cursor: pointer;
+}
+
 /* music player */
 
 #music-player{
@@ -72,7 +76,7 @@ body{
 }
 
 #pause-button{
-	
+
 }
 
 #skip-button{
