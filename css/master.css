@@ -76,13 +76,15 @@ body{
 #song-name{
 	font-family: Futura, sans-serif;
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 16px;
+	margin: auto;
 }
 
 #album-name{
 	font-family: Futura, sans-serif;
 	color: #EC5453;
-	font-size: 24px;
+	font-size: 16px;
+	margin: auto;
 }
 
 #close-button{
