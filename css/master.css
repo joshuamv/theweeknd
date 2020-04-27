@@ -35,7 +35,9 @@ body{
 #music-player{
 	position: fixed;
 	height: 20vh;
+	width: 100%;
 	background-color: #BA1916;
+	bottom: 0;
 }
 
 .music-controls{
