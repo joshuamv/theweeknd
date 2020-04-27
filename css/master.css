@@ -198,6 +198,11 @@ h3{
 	transition: 0.33s;
 }
 
+.button:hover{
+	color: white;
+	background-color: #D8201D;
+}
+
 #preview{
 	background-color: #3A3A3A;
 }
@@ -208,11 +213,6 @@ h3{
 
 .last-button{
 	margin-right: 0px;
-}
-
-.button:hover{
-	color: white;
-	background-color: #D8201D;
 }
 
 .separator{
