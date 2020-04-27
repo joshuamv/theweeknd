@@ -12,8 +12,7 @@ function setup(){
 	btn = document.getElementById("preview-after-hours");
 
 	// react to click event
-	btn.addEventListener('click',function(){
-		alert("Hello!");
+	btn.addEventListener('click', previewMusic()
 	});
 }
 
