@@ -203,6 +203,10 @@ h3{
 	background-color: #D8201D;
 }
 
+.last-button{
+	margin-right: 0px;
+}
+
 #preview{
 	font-family: Futura, sans-serif;
 	font-weight: 500;
@@ -224,10 +228,6 @@ h3{
 #preview:hover{
 	color: white;
 	background-color: #616161;
-}
-
-.last-button{
-	margin-right: 0px;
 }
 
 .separator{
