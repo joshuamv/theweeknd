@@ -33,7 +33,7 @@ body{
 /* music player */
 
 #music-player{
-	display: flex;
+	display: none;
 	flex-direction: row;
 	align-items: stretch;
 	position: fixed;
@@ -68,11 +68,11 @@ body{
 }
 
 #play-button{
-
+	display:none;
 }
 
 #pause-button{
-	display:none;
+	
 }
 
 #skip-button{

@@ -1,13 +1,3 @@
-// STARTER JS SCRIPT CONTAINS
-// THE BASIC AND MOST COMMONLY USED
-// PATTERNS IN JS:
-
-// + Selecting elements with Id
-// + Event Listeners
-// + setInterval()
-// + Checking/Adding/removing classes
-// + Checking size of elements
-// + Manipulating CSS
 
 // GLOBAL VARS
 var btn;
@@ -16,56 +6,57 @@ var intervalIndex; // a reference to the interval
 // window loaded EVENT
 window.addEventListener("DOMContentLoaded", setup);
 
-// window resize EVENT
-window.addEventListener("resize", resize);
-
 // setup your page
 function setup(){
 	// set the button var
-	btn = document.getElementById("sayHello");
-
-	// start calling draw function once every second
-	intervalIndex = setInterval(draw, 1000);
+	btn = document.getElementById("preview-after-hours");
 
 	// react to click event
 	btn.addEventListener('click',function(){
 		alert("Hello!");
-		// stop calling draw
-		clearInterval(intervalIndex);
 	});
-
-	// intial call to resize
-	resize();
 }
 
-function draw(){
 
-	// toggle bright and dark classes
-	if( btn.classList.contains("bright") ){
-		btn.classList.remove("bright");
-		btn.classList.add("dark");
-	}else{
-		btn.classList.add("bright");
-		btn.classList.remove("dark");
-	}
-}
-
+//////////functions//////////
 
 function clickFn(){
 	alert("Hello!");
 }
 
-// react to page resize
-function resize(){
-	// get window width
-  var wid = window.innerWidth;
-  var hei = window.innerHeight;
+function previewMusic(){
+	//show music player
+	// show pause button
+	// hide play button
+	document.getElementById("music-player").style.display = "flex";
+	// play song
+	// get name of Song
+	// get name of album
+	// set both in music player
+}
 
-	// calculate position
-	var x = (wid/2) - (btn.offsetWidth/2);
-  var y = (hei/2) - (btn.offsetHeight/2);
+function pauseMusic(){
+ // hide pause button
+ // show play button
+ // pause music
+}
 
-	// set position
-  btn.style.top = y + "px";
-  btn.style.left = x + "px";
+function playMusic(){
+ // hide play button
+ // show pause button
+ // resume music
+}
+
+function closeMusic(){
+ // hide music player
+ // stop music
+}
+
+function skipSong(){
+ // next song on the album
+}
+
+function previousSong(){
+ // if play count is higher than 2 seconds, set play count to 0 (restart)
+ // if play count is less than 2 seconds, go to the previous song on the album
 }
