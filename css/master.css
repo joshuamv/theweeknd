@@ -38,7 +38,6 @@ body{
 	position: fixed;
 	height: 10vh;
 	width: 100%;
-	padding: 10%;
 	background-color: #BA1916;
 	bottom: 0;
 }
@@ -284,11 +283,15 @@ p{
 	justify-content: center;
 }
 
-.social-icon{
-	height: 30px;
-	width: 30px;
-	padding: auto;
+.social-icon-div{
+	height: auto;
+	width: auto;
 	margin: 5px;
+}
+
+.social-icon{
+	margin: auto;
+	margin-bottom: 0px;
 }
 
 /* breakpoints */
