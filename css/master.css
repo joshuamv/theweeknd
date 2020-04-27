@@ -77,40 +77,6 @@ header{
 	z-index: 100;
 }
 
-.title-extras{
-  display: flex;
-  flex-direction: column;
-	align-items: flex-end;
-	align-content: flex-end;
-}
-
-.mute-div{
-	align-content: flex-start;
-}
-
-.button{
-	font-family: Futura, sans-serif;
-	font-weight: 500;
-	font-size: 11px;
-	letter-spacing: 0.05em;
-	text-decoration: none;
-	color: #E7E7E7;
-  background-color: #D8201D;
-  margin-right: 5px;
-	margin-top: 5px;
-	padding-top: 4px;
-	padding-bottom: 3px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 50px;
-	transition: 0.33s;
-}
-
-.button:hover{
-	color: white;
-	background-color: #A01513;
-}
-
 /* content */
 
 .content{
@@ -214,6 +180,33 @@ h3{
   flex-direction: row;
 }
 
+.button{
+	font-family: Futura, sans-serif;
+	font-weight: 500;
+	font-size: 11px;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #E7E7E7;
+  background-color: #D8201D;
+  margin-right: 5px;
+	margin-top: 5px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50px;
+	transition: 0.33s;
+}
+
+#last-button{
+	margin-right: 0px;
+}
+
+.button:hover{
+	color: white;
+	background-color: #A01513;
+}
+
 .separator{
 	margin: auto;
 	margin-left: 0;
@@ -301,7 +294,7 @@ p{
 
 	.button{
 		margin-top: 10px;
-		padding-top: 10px;
+		padding-top: 11px;
 		padding-bottom: 10px;
 		padding-right: 13px;
 		padding-left: 13px;
