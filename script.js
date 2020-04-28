@@ -1,48 +1,35 @@
 
-// GLOBAL VARS
+//////////global vars//////////
+
 var clickedAlbum;
 var musicPlayer
-var intervalIndex; // a reference to the interval
 
-// window loaded EVENT
-window.addEventListener("DOMContentLoaded", setup);
-
-// setup your page
-function setup(){
-	// react to click event
-
-	// btn.addEventListener('click', function(){
-	// 	document.getElementById("music-player").style.display = "flex";
-	// 	alert("Hello!");
-	// }
-	// });
-}
+//change album vars to strings
+var afterHours = "after-hours";
 
 
 //////////functions//////////
 
-function previewMusic(album){
-	//change preview button from the album to close preview
-	clickedAlbum = document.getElementById(album);
+function previewMusic (album){
+	clickedAlbum = document.getElementById(String(album));
 	musicPlayer = document.getElementById("music-player");
-	if (musicPlayer.style.display=="none"){
-			musicPlayer.style.display="flex"
-		}
-		else{
+	//show music player
+	//change preview button from the album to close preview
+	if (musicPlayer.style.display=="flex"){
 			musicPlayer.style.display="none"
 		}
+		else{
+			musicPlayer.style.display="flex"
+			//rename album in music player
+			var newName = document.getElementById(album+"-name").textContent
+			document.getElementById("album-name").textContent = newName;
+		}
 		alert(album);
-	}
-	//show music player
-
-	// document.getElementById("music-player").style.display = "flex";
 
 	// show pause button
 	// hide play button
 	// play song
-	// get name of Song
-	// get name of album
-	// set both in music player
+	// get name of Song in music player
 }
 
 function closeMusic(){
