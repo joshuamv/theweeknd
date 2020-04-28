@@ -1,6 +1,6 @@
 
 // GLOBAL VARS
-var btn;
+var clickedAlbum;
 var musicPlayer
 var intervalIndex; // a reference to the interval
 
@@ -23,17 +23,16 @@ function setup(){
 
 function previewMusic(album){
 	//change preview button from the album to close preview
-	btn = document.getElementById(album);
-	btn.addEventListener("click",function () {
-		musicPlayer = document.getElementById("music-player");
-		if (musicPlayer.style.display=="none"){
+	clickedAlbum = document.getElementById(album);
+	musicPlayer = document.getElementById("music-player");
+	if (musicPlayer.style.display=="none"){
 			musicPlayer.style.display="flex"
 		}
 		else{
 			musicPlayer.style.display="none"
 		}
 		alert(album);
-	})
+	}
 	//show music player
 
 	// document.getElementById("music-player").style.display = "flex";
