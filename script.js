@@ -15,6 +15,10 @@ var balloons = "balloons";
 var thrusday = "thrusday";
 var echoes = "echoes";
 
+//define songs by album//
+var trex = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+
+
 //////////functions//////////
 
 function previewMusic (album){
@@ -73,6 +77,7 @@ function playMusic(){
  // show pause button
  document.getElementById("pause-button").style.display = "block";
  // resume music
+ trex.play();
 }
 
 function skipSong(){
