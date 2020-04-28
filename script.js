@@ -17,9 +17,7 @@ var thrusday = "thrusday";
 var echoes = "echoes";
 
 //define songs by album//
-var sample = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
-
-audio = sample;
+var starboy-songs = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
 
 //////////functions//////////
 
@@ -49,7 +47,7 @@ function previewMusic (album){
 	// get name of Song in music player
 	return album;
 	// play song from the array belonging to the album chosen
-	audio = album+"songs";
+	audio = starboy-songs;
 	playMusic();
 }
 
