@@ -21,6 +21,7 @@ function setup(){
 //////////functions//////////
 
 function previewMusic(album){
+	//change preview button from the album to previewing tag
 	btn = document.getElementById("album");
 	//show music player
 	document.getElementById("music-player").style.display = "flex";
