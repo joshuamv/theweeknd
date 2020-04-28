@@ -40,15 +40,17 @@ function closeMusic(){
 
 function pauseMusic(){
  // hide pause button
- document.getElementById("music-player").style.display = "none";
+ document.getElementById("pause-button").style.display = "none";
  // show play button
- document.getElementById("music-player").style.display = "block";
+ document.getElementById("play-button").style.display = "block";
  // pause music
 }
 
 function playMusic(){
  // hide play button
+ document.getElementById("play-button").style.display = "none";
  // show pause button
+ document.getElementById("pause-button").style.display = "block";
  // resume music
 }
 
