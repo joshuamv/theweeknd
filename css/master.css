@@ -68,7 +68,7 @@ a {
 }
 
 #previous-button{
-
+	display: block;
 }
 
 #play-button{
@@ -76,11 +76,11 @@ a {
 }
 
 #pause-button{
-
+	display: block;
 }
 
 #skip-button{
-
+	display: block;
 }
 
 #now-playing{
@@ -106,6 +106,7 @@ a {
 }
 
 #close-button{
+ display: block;
  align-self: flex-end;
  margin-right: 0px;
 }

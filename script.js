@@ -22,6 +22,7 @@ function setup(){
 
 function previewMusic(album){
 	btn = document.getElementById("album");
+	//show music player
 	document.getElementById("music-player").style.display = "flex";
 	// show pause button
 	// hide play button
@@ -32,13 +33,16 @@ function previewMusic(album){
 }
 
 function closeMusic(){
+	//close music player
 	document.getElementById("music-player").style.display = "none";
  // stop music
 }
 
 function pauseMusic(){
  // hide pause button
+ document.getElementById("music-player").style.display = "none";
  // show play button
+ document.getElementById("music-player").style.display = "block";
  // pause music
 }
 
