@@ -48,7 +48,7 @@ function previewMusic (album){
   // show pause button
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
-
+	document.getElementById("song-name").textContent = "Blinding Lights";
 	//clear audio array
 
 	// play song from the array belonging to the album chosen
