@@ -22,14 +22,18 @@ function setup(){
 
 function previewMusic(album){
 	btn = document.getElementById("album");
-	//show music player
+	document.getElementById("music-player").style.display = "flex";
 	// show pause button
 	// hide play button
-	document.getElementById("music-player").style.display = "flex";
 	// play song
 	// get name of Song
 	// get name of album
 	// set both in music player
+}
+
+function closeMusic(){
+	document.getElementById("music-player").style.display = "none";
+ // stop music
 }
 
 function pauseMusic(){
@@ -42,11 +46,6 @@ function playMusic(){
  // hide play button
  // show pause button
  // resume music
-}
-
-function closeMusic(){
-	document.getElementById("music-player").style.display = "none";
- // stop music
 }
 
 function skipSong(){

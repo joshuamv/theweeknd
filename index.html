@@ -30,16 +30,16 @@
 
       <div id="music-player">
         <div id="music-controls">
-          <a id="previous-button" class="player-item">
+          <a id="previous-button" onclick="previousSong()" class="player-item">
             <img class="player-icon" src="img/previous.svg" alt="previous-button">
           </a>
-          <a id="play-button" class="player-item">
+          <a id="play-button" onclick="playMusic()" class="player-item">
             <img class="player-icon" src="img/play.svg" alt="play-button">
           </a>
-          <a id="pause-button" class="player-item">
+          <a id="pause-button" onclick="pauseMusic()" class="player-item">
             <img class="player-icon" src="img/pause.svg" alt="pause-button">
           </a>
-          <a id="next-button" class="player-item">
+          <a id="next-button" onclick="skipSong()" class="player-item">
             <img class="player-icon" src="img/next.svg" alt="next-button">
           </a>
           <div id="now-playing" class="player-item">
