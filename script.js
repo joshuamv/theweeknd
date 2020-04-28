@@ -66,7 +66,7 @@ function closeMusic(album){
 		previewBtn[i].style.cursor = "pointer";
 	}
 	// stop music
-
+	pauseMusic();
 }
 
 function playMusic(){
