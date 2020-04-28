@@ -1,6 +1,7 @@
 
 // GLOBAL VARS
 var btn;
+var musicPlayer
 var intervalIndex; // a reference to the interval
 
 // window loaded EVENT
@@ -22,9 +23,20 @@ function setup(){
 
 function previewMusic(album){
 	//change preview button from the album to close preview
-	btn = document.getElementById("album");
+	btn = document.getElementById(album);
+	btn.addEventListener("click",function () {
+		musicPlayer = document.getElementById("music-player");
+		if (musicPlayer.style.display=="none"){
+			musicPlayer.style.display="flex"
+		}
+		else{
+			musicPlayer.style.display="none"
+		}
+	})
 	//show music player
-	document.getElementById("music-player").style.display = "flex";
+
+	// document.getElementById("music-player").style.display = "flex";
+
 	// show pause button
 	// hide play button
 	// play song
