@@ -17,9 +17,10 @@ var echoes = "echoes";
 
 //define songs by album//
 
-var current_song = 1;
-var player = new Audio();
-player.src = document.getElementById("after-hours-audio-1");
+let afterHoursPlay = new Array('audio/blinding-lights.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
+let current_song = 0;
+let player = new Audio();
+player.src = afterHoursPlay[current_song];
 
 //////////functions//////////
 
@@ -40,16 +41,16 @@ function previewMusic (album){
 	nowPlaying.textContent = "NOW PLAYING";
 	nowPlaying.style.cursor = "default";
 	//rename album in music player
-	var newAlbumName = document.getElementById(album+"-name").textContent;
-	document.getElementById("album-name").textContent = newAlbumName;
+	var newName = document.getElementById(album+"-name").textContent;
+	document.getElementById("album-name").textContent = newName;
 	// hide play button
   document.getElementById("play-button").style.display = "none";
   // show pause button
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
-	var newSongName = document.getElementById(album+"-audio-1").textContent;
-	document.getElementById("1-after-hours-song-name").textContent = newSongName;
-	//clear audio array if needed
+	document.getElementById("song-name").textContent = "Blinding Lights";
+	//clear audio array
+
 	// play song from the array belonging to the album chosen
 	playMusic();
 }
