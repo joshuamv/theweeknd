@@ -17,7 +17,7 @@ var echoes = "echoes";
 
 //define songs by album//
 
-let afterHoursPlay = new Array('https://github.com/joshuamv/theweeknd/blob/master/audio/blinding-lights.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
+let afterHoursPlay = new Array('https://raw.githubusercontent.com/joshuamv/theweeknd/master/audio/blinding-lights.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
 let current_song = 0;
 let player = new Audio();
 player.src = afterHoursPlay[current_song];
