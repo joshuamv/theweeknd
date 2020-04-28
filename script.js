@@ -4,6 +4,7 @@
 var clickedAlbum;
 var musicPlayer;
 var album;
+var audio;
 
 //change album vars to strings
 var afterHours = "after-hours";
@@ -16,8 +17,9 @@ var thrusday = "thrusday";
 var echoes = "echoes";
 
 //define songs by album//
-var trex = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+var sample = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
 
+audio = sample;
 
 //////////functions//////////
 
@@ -44,9 +46,10 @@ function previewMusic (album){
   document.getElementById("play-button").style.display = "none";
   // show pause button
   document.getElementById("pause-button").style.display = "block";
-	// play song
 	// get name of Song in music player
 	return album;
+	// play song
+	album
 }
 
 function closeMusic(album){
@@ -69,6 +72,7 @@ function pauseMusic(){
  // show play button
  document.getElementById("play-button").style.display = "block";
  // pause music
+ audio.pause()
 }
 
 function playMusic(){
@@ -77,7 +81,7 @@ function playMusic(){
  // show pause button
  document.getElementById("pause-button").style.display = "block";
  // resume music
- trex.play();
+ audio.play();
 }
 
 function skipSong(){
