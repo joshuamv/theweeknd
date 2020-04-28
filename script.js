@@ -48,8 +48,9 @@ function previewMusic (album){
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
 	return album;
-	// play song
-	album
+	// play song from the array belonging to the album chosen
+	audio = album+"songs";
+	playMusic();
 }
 
 function closeMusic(album){
