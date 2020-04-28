@@ -19,7 +19,7 @@ var echoes = "echoes";
 
 var current_song = 1;
 var player = new Audio();
-player.src = document.getElementById(current_song+album+"-audio");
+player.src = document.getElementById("1-after-hours-audio");
 
 //////////functions//////////
 
