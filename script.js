@@ -19,7 +19,7 @@ var echoes = "echoes";
 
 var current_song = 1;
 var player = new Audio();
-player.src = document.getElementById("1-after-hours-audio");
+player.src = document.getElementById("after-hours-audio-1");
 
 //////////functions//////////
 
@@ -47,7 +47,7 @@ function previewMusic (album){
   // show pause button
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
-	var newSongName = document.getElementById("1"+album+"-audio").textContent;
+	var newSongName = document.getElementById(album+"-audio-1").textContent;
 	document.getElementById("1-after-hours-song-name").textContent = newSongName;
 	//clear audio array if needed
 	// play song from the array belonging to the album chosen
