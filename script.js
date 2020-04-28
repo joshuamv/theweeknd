@@ -4,7 +4,6 @@
 var clickedAlbum;
 var musicPlayer;
 var album;
-var audio = [];
 
 //change album vars to strings
 var afterHours = "after-hours";
@@ -17,7 +16,14 @@ var thrusday = "thrusday";
 var echoes = "echoes";
 
 //define songs by album//
-var starboySongs = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
+
+// var starboySongs = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
+
+let afterHoursPlay = new Array('http://www.w3schools.com/htmL/horse.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
+let current_song = 0;
+let player = new Audio();
+player.src = afterHoursPlay[current_song];
+
 
 //////////functions//////////
 
@@ -45,12 +51,12 @@ function previewMusic (album){
   // show pause button
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
-	return album;
+
 	//clear audio array
-	audio = [];
+
 	// play song from the array belonging to the album chosen
-	audio.push(starboySongs);
 	playMusic();
+	// playMusic();
 }
 
 function closeMusic(album){
@@ -67,26 +73,31 @@ function closeMusic(album){
 
 }
 
-function pauseMusic(){
- // hide pause button
- document.getElementById("pause-button").style.display = "none";
- // show play button
- document.getElementById("play-button").style.display = "block";
- // pause music
- audio.pause()
-}
-
 function playMusic(){
  // hide play button
  document.getElementById("play-button").style.display = "none";
  // show pause button
  document.getElementById("pause-button").style.display = "block";
  // resume music
- audio.play();
+ player.play();
+}
+
+function pauseMusic(){
+ // hide pause button
+ document.getElementById("pause-button").style.display = "none";
+ // show play button
+ document.getElementById("play-button").style.display = "block";
+ // pause music
+ player.pause();
 }
 
 function skipSong(){
  // next song on the album
+ player.pause();
+ player.src = song_list[++current_song];
+ player.onload = ()=>{
+			 player.play();
+ };
 }
 
 function previousSong(){
