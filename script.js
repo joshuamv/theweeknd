@@ -32,6 +32,7 @@ function previewMusic(album){
 		else{
 			musicPlayer.style.display="none"
 		}
+		alert(album);
 	})
 	//show music player
 
