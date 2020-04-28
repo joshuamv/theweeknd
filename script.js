@@ -45,7 +45,7 @@ function playMusic(){
 }
 
 function closeMusic(){
- // hide music player
+	document.getElementById("music-player").style.display = "none";
  // stop music
 }
 
