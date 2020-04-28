@@ -20,22 +20,23 @@ var echoes = "echoes";
 function previewMusic (album){
 	clickedAlbum = document.getElementById(String(album));
 	musicPlayer = document.getElementById("music-player");
-	if (musicPlayer.style.display=="flex"){
-			closeMusic();
-		}
-		else{
-			//show music player
-			musicPlayer.style.display="flex";
-			//change preview button from the album to close preview
-			document.getElementById(album).textContent = "CLOSE PREVIEW";
-			//rename album in music player
-			var newName = document.getElementById(album+"-name").textContent;
-			document.getElementById("album-name").textContent = newName;
-			// hide play button
-		  document.getElementById("play-button").style.display = "none";
-		  // show pause button
-		  document.getElementById("pause-button").style.display = "block";
-		}
+	//show music player
+	musicPlayer.style.display="flex";
+	//set all preview buttons back to preview
+	var previewBtn = document.getElementsByClassName("secondary-button");
+	var i;
+	for (i = 0; i < previewBtn.length; i++) {
+		previewBtn[i].textContent = "PREVIEW";
+	}
+	//set preview button to now playing
+	document.getElementById(album).textContent = "NOW PLAYING";
+	//rename album in music player
+	var newName = document.getElementById(album+"-name").textContent;
+	document.getElementById("album-name").textContent = newName;
+	// hide play button
+  document.getElementById("play-button").style.display = "none";
+  // show pause button
+  document.getElementById("pause-button").style.display = "block";
 
 	// play song
 	// get name of Song in music player
