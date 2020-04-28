@@ -37,16 +37,20 @@ function previewMusic (album){
   document.getElementById("play-button").style.display = "none";
   // show pause button
   document.getElementById("pause-button").style.display = "block";
-
 	// play song
 	// get name of Song in music player
+	return album;
 }
 
 function closeMusic(album){
 	//close music player
 	document.getElementById("music-player").style.display = "none";
-	//set stop preview button to preview
-	document.getElementById(album).textContent = "CLOSE PREVIEW";
+	//set all preview buttons back to preview
+	var previewBtn = document.getElementsByClassName("secondary-button");
+	var i;
+	for (i = 0; i < previewBtn.length; i++) {
+		previewBtn[i].textContent = "PREVIEW";
+	}
 	// stop music
 
 }
