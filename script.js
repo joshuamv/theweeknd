@@ -17,13 +17,10 @@ var echoes = "echoes";
 
 //define songs by album//
 
-// var starboySongs = new Audio('https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3');
-
-let afterHoursPlay = new Array('http://www.w3schools.com/htmL/horse.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
+let afterHoursPlay = new Array('audio/blinding-lights.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
 let current_song = 0;
 let player = new Audio();
 player.src = afterHoursPlay[current_song];
-
 
 //////////functions//////////
 
@@ -56,7 +53,6 @@ function previewMusic (album){
 
 	// play song from the array belonging to the album chosen
 	playMusic();
-	// playMusic();
 }
 
 function closeMusic(album){
