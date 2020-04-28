@@ -94,7 +94,7 @@ function pauseMusic(){
 function skipSong(){
  // next song on the album
  player.pause();
- player.src = song_list[++current_song];
+ player.src = afterHoursPlay[++current_song];
  player.onload = ()=>{
 			 player.play();
  };
@@ -103,4 +103,9 @@ function skipSong(){
 function previousSong(){
  // if play count is higher than 2 seconds, set play count to 0 (restart)
  // if play count is less than 2 seconds, go to the previous song on the album
+ player.pause();
+ player.src = afterHoursPlay[--current_song];
+ player.onload = ()=>{
+			player.play();
+ };
 }
