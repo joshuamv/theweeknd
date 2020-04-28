@@ -27,9 +27,12 @@ function previewMusic (album){
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
 		previewBtn[i].textContent = "PREVIEW";
+		previewBtn[i].style.cursor = "pointer";
 	}
 	//set preview button to now playing
-	document.getElementById(album).textContent = "NOW PLAYING";
+	var nowPlaying = document.getElementById(album);
+	nowPlaying.textContent = "NOW PLAYING";
+	nowPlaying.style.cursor = "default";
 	//rename album in music player
 	var newName = document.getElementById(album+"-name").textContent;
 	document.getElementById("album-name").textContent = newName;
@@ -50,6 +53,7 @@ function closeMusic(album){
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
 		previewBtn[i].textContent = "PREVIEW";
+		previewBtn[i].style.cursor = "pointer";
 	}
 	// stop music
 
