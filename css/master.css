@@ -93,7 +93,7 @@ a {
 }
 
 #song-name{
-	font-family: Futura, sans-serif;
+	font-family: Futura, 'Nunito Sans', sans-serif;
 	color: #FFFFFF;
 	font-size: 16px;
 	margin: auto;
@@ -101,7 +101,7 @@ a {
 }
 
 #album-name{
-	font-family: Futura, sans-serif;
+	font-family: Futura, 'Nunito Sans', sans-serif;
 	color: #EC5453;
 	font-size: 16px;
 	margin: auto;
