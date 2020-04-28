@@ -19,7 +19,7 @@ var echoes = "echoes";
 
 var current_song = 1;
 var player = new Audio();
-player.src = current_song+album+"-audio";
+player.src = document.getElementById(current_song+album+"-audio");
 
 //////////functions//////////
 
