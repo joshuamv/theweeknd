@@ -4,7 +4,7 @@
 var clickedAlbum;
 var musicPlayer;
 var album;
-var audio;
+var audio = [];
 
 //change album vars to strings
 var afterHours = "after-hours";
@@ -46,8 +46,10 @@ function previewMusic (album){
   document.getElementById("pause-button").style.display = "block";
 	// get name of Song in music player
 	return album;
+	//clear audio array
+	audio = [];
 	// play song from the array belonging to the album chosen
-	audio = starboySongs;
+	audio.push(starboySongs);
 	playMusic();
 }
 
