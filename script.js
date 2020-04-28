@@ -66,6 +66,7 @@ function closeMusic(album){
 		previewBtn[i].style.cursor = "pointer";
 	}
 	// stop music
+	audio.currentTime = 0
 	pauseMusic();
 }
 
