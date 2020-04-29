@@ -23,7 +23,7 @@ var beautyPlay = 'audio/often.mp3';
 var kissPlay = 'audio/belong-to-the-world.mp3';
 var balloonsPlay = 'audio/lights.mp3';
 var thrusdayPlay = 'audio/bights.mp3';
-var echoesPlay = 'audio/blights.mp3';
+var echoesPlay = 'audio/montreal.mp3';
 
 var player = new Audio();
 
@@ -162,7 +162,7 @@ function playEchoes(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "ooijio";
+document.getElementById("song-name").textContent = "Montreal";
 previewMusic(album);
 player.src = echoesPlay;
 playMusic();
