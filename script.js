@@ -17,7 +17,10 @@ var echoes = "echoes";
 
 //define songs by album//
 
-var afterHoursPlay = 'audio/blinding-lights.mp3'; // Contains Audio URLs
+var afterHoursPlay = 'audio/blinding-lights.mp3';
+var melancholyPlay = 'audio/blinding-lights.mp3';
+var starboyPlay = 'audio/blinding-lights.mp3';
+
 var player = new Audio();
 
 
@@ -28,6 +31,26 @@ player.pause();
 document.getElementById("song-name").textContent = "Blinding Lights";
 previewMusic(album);
 player.src = afterHoursPlay;
+playMusic();
+}
+
+function playMelancholy(album){
+// get name of Song in music player
+player.currentTime = 0
+player.pause();
+document.getElementById("song-name").textContent = "Blinding Lights";
+previewMusic(album);
+player.src = melancholyPlay;
+playMusic();
+}
+
+function playStarboy(album){
+// get name of Song in music player
+player.currentTime = 0
+player.pause();
+document.getElementById("song-name").textContent = "Blinding Lights";
+previewMusic(album);
+player.src = starboyPlay;
 playMusic();
 }
 //////////functions//////////
