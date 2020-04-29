@@ -38,7 +38,7 @@ function playMelancholy(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "Blinding Lights";
+document.getElementById("song-name").textContent = "Call Out My Name";
 previewMusic(album);
 player.src = melancholyPlay;
 playMusic();
@@ -48,7 +48,7 @@ function playStarboy(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "Blinding Lights";
+document.getElementById("song-name").textContent = "Stayboysong";
 previewMusic(album);
 player.src = starboyPlay;
 playMusic();
