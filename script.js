@@ -20,7 +20,7 @@ var afterHoursPlay = 'audio/blinding-lights.mp3';
 var melancholyPlay = 'audio/call-out-my-name.mp3';
 var starboyPlay = 'audio/party-monster.mp3';
 var beautyPlay = 'audio/often.mp3';
-var kissPlay = 'audio/lights.mp3';
+var kissPlay = 'audio/belong-to-the-world.mp3';
 var balloonsPlay = 'audio/lights.mp3';
 var thrusdayPlay = 'audio/bights.mp3';
 var echoesPlay = 'audio/blights.mp3';
@@ -132,7 +132,7 @@ function playKiss(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "Wanderlust";
+document.getElementById("song-name").textContent = "Belong to the World";
 previewMusic(album);
 player.src = kissPlay;
 playMusic();
