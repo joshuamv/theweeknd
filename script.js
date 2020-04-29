@@ -17,13 +17,13 @@ var echoes = "echoes";
 
 //define songs by album//
 var afterHoursPlay = 'audio/blinding-lights.mp3';
-var melancholyPlay = 'audio/blinding-lights.mp3';
-var starboyPlay = 'audio/blinding-lights.mp3';
-var beautyPlay = 'audio/blinding-lights.mp3';
-var kissPlay = 'audio/blinding-lights.mp3';
-var balloonsPlay = 'audio/blinding-lights.mp3';
-var thrusdayPlay = 'audio/blinding-lights.mp3';
-var echoesPlay = 'audio/blinding-lights.mp3';
+var melancholyPlay = 'audio/call-out-my-name.mp3';
+var starboyPlay = 'audio/party-monster.mp3';
+var beautyPlay = 'audio/often.mp3';
+var kissPlay = 'audio/lights.mp3';
+var balloonsPlay = 'audio/lights.mp3';
+var thrusdayPlay = 'audio/bights.mp3';
+var echoesPlay = 'audio/blights.mp3';
 
 var player = new Audio();
 
@@ -112,7 +112,7 @@ function playStarboy(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "Stayboysong";
+document.getElementById("song-name").textContent = "Party Monster";
 previewMusic(album);
 player.src = starboyPlay;
 playMusic();
@@ -132,7 +132,7 @@ function playKiss(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "okok";
+document.getElementById("song-name").textContent = "Wanderlust";
 previewMusic(album);
 player.src = kissPlay;
 playMusic();
