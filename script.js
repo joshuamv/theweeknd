@@ -23,7 +23,7 @@ var beautyPlay = 'audio/often.mp3';
 var kissPlay = 'audio/belong-to-the-world.mp3';
 var echoesPlay = 'audio/montreal.mp3';
 var thrusdayPlay = 'audio/bights.mp3';
-var balloonsPlay = 'audio/lights.mp3';
+var balloonsPlay = 'audio/high-for-this.mp3';
 
 var player = new Audio();
 
@@ -152,7 +152,7 @@ function playThursday(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "ooijio";
+document.getElementById("song-name").textContent = "popopop";
 previewMusic(album);
 player.src = thrusdayPlay;
 playMusic();
@@ -162,7 +162,7 @@ function playBalloons(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "ooijio";
+document.getElementById("song-name").textContent = "High For This";
 previewMusic(album);
 player.src = balloonsPlay;
 playMusic();
