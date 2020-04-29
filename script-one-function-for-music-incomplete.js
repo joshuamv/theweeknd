@@ -17,19 +17,11 @@ var echoes = "echoes";
 
 //define songs by album//
 
-var afterHoursPlay = 'audio/blinding-lights.mp3'; // Contains Audio URLs
-var player = new Audio();
+let afterHoursPlay = new Array('audio/blinding-lights.mp3', 'http://demos.w3avenue.com/html5-unleashed-tips-tricks-and-techniques/demo-audio.mp3'); // Contains Audio URLs
+let current_song = 0;
+let player = new Audio();
+player.src = afterHoursPlay[current_song];
 
-
-function playAfterHours(album){
-// get name of Song in music player
-player.currentTime = 0
-player.pause();
-document.getElementById("song-name").textContent = "Blinding Lights";
-previewMusic(album);
-player.src = afterHoursPlay;
-playMusic();
-}
 //////////functions//////////
 
 function previewMusic (album){
@@ -55,6 +47,12 @@ function previewMusic (album){
   document.getElementById("play-button").style.display = "none";
   // show pause button
   document.getElementById("pause-button").style.display = "block";
+	// get name of Song in music player
+	document.getElementById("song-name").textContent = "Blinding Lights";
+	//clear audio array
+
+	// play song from the array belonging to the album chosen
+	playMusic();
 }
 
 function closeMusic(album){
@@ -88,4 +86,23 @@ function pauseMusic(){
  document.getElementById("play-button").style.display = "block";
  // pause music
  player.pause();
+}
+
+function skipSong(){
+ // next song on the album
+ player.pause();
+ player.src = afterHoursPlay[++current_song];
+ player.onload = ()=>{
+			 player.play();
+ };
+}
+
+function previousSong(){
+ // if play count is higher than 2 seconds, set play count to 0 (restart)
+ // if play count is less than 2 seconds, go to the previous song on the album
+ player.pause();
+ player.src = afterHoursPlay[--current_song];
+ player.onload = ()=>{
+			player.play();
+ };
 }
