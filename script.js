@@ -21,9 +21,9 @@ var melancholyPlay = 'audio/call-out-my-name.mp3';
 var starboyPlay = 'audio/party-monster.mp3';
 var beautyPlay = 'audio/often.mp3';
 var kissPlay = 'audio/belong-to-the-world.mp3';
-var balloonsPlay = 'audio/lights.mp3';
-var thrusdayPlay = 'audio/bights.mp3';
 var echoesPlay = 'audio/montreal.mp3';
+var thrusdayPlay = 'audio/bights.mp3';
+var balloonsPlay = 'audio/lights.mp3';
 
 var player = new Audio();
 
@@ -138,13 +138,13 @@ player.src = kissPlay;
 playMusic();
 }
 
-function playBalloons(album){
+function playEchoes(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "ooijio";
+document.getElementById("song-name").textContent = "Montreal";
 previewMusic(album);
-player.src = balloonsPlay;
+player.src = echoesPlay;
 playMusic();
 }
 
@@ -158,12 +158,12 @@ player.src = thrusdayPlay;
 playMusic();
 }
 
-function playEchoes(album){
+function playBalloons(album){
 // get name of Song in music player
 player.currentTime = 0
 player.pause();
-document.getElementById("song-name").textContent = "Montreal";
+document.getElementById("song-name").textContent = "ooijio";
 previewMusic(album);
-player.src = echoesPlay;
+player.src = balloonsPlay;
 playMusic();
 }
