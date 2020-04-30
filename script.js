@@ -60,7 +60,7 @@ function closeMusic(album){
 	var previewBtn = document.getElementsByClassName("preview-text");
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
-		previewBtn[i].textContent = PREVIEW;
+		previewBtn[i].textContent = "PREVIEW";
 	}
 	// stop music
 	player.currentTime = 0
