@@ -211,11 +211,11 @@ h2{
 }
 
 .album-art:hover{
-	box-shadow: 0px 0px 30px rgba(255, 255, 255, .30);
+	/* box-shadow: 0px 0px 30px rgba(255, 255, 255, .30); */
 }
 
 .album-art:before {
-	content: '';
+	/* content: '';
   display: flex;
   position: absolute;
   height: 100%;
@@ -225,12 +225,12 @@ h2{
 	overflow: hidden;
   background: linear-gradient(to bottom, transparent 0%, transparent 100%);
   opacity: 0;
-  transition: 0.33s;
+  transition: 0.33s; */
 }
 
 .album-art:hover:before {
-	background: linear-gradient(to bottom, transparent 20%, black 150%);
-	opacity: 1;
+	/* background: linear-gradient(to bottom, transparent 20%, black 150%);
+	opacity: 1; */
 }
 
 .album-img{
