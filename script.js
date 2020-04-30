@@ -35,7 +35,7 @@ function previewMusic (album){
 	//show music player
 	musicPlayer.style.display="flex";
 	//set all preview buttons back to preview
-	var previewBtn = document.getElementsByClassName("secondary-button");
+	var previewBtn = document.getElementsByClassName("preview-text");
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
 		previewBtn[i].textContent = "PREVIEW";
@@ -57,10 +57,10 @@ function closeMusic(album){
 	//close music player
 	document.getElementById("music-player").style.display = "none";
 	//set all preview buttons back to preview
-	var previewBtn = document.getElementsByClassName("secondary-button");
+	var previewBtn = document.getElementsByClassName("preview-text");
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
-		previewBtn[i].innerHTML = "<img class="play-icon" src="img/play.svg" alt="play-icon">PREVIEW";
+		previewBtn[i].textContent = PREVIEW;
 	}
 	// stop music
 	player.currentTime = 0
