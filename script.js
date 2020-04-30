@@ -60,7 +60,8 @@ function closeMusic(album){
 	var previewBtn = document.getElementsByClassName("secondary-button");
 	var i;
 	for (i = 0; i < previewBtn.length; i++) {
-		previewBtn[i].textContent = PREVIEW;
+		previewBtn[i].innerHTML = <img class="play-icon" src="img/play.svg" alt="play-icon">PREVIEW
+;
 	}
 	// stop music
 	player.currentTime = 0
