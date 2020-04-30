@@ -63,7 +63,7 @@ function closeMusic(album){
 		previewBtn[i].textContent = "PREVIEW";
 	}
 	// stop music
-	player.currentTime = 0
+	player.currentTime = 0;
 	pauseMusic();
 }
 
@@ -90,7 +90,7 @@ function pauseMusic(){
 
 function playAfterHours(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Blinding Lights";
 previewMusic(album);
@@ -100,7 +100,7 @@ playMusic();
 
 function playMelancholy(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Call Out My Name";
 previewMusic(album);
@@ -110,7 +110,7 @@ playMusic();
 
 function playStarboy(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Party Monster";
 previewMusic(album);
@@ -120,7 +120,7 @@ playMusic();
 
 function playBeauty(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Often";
 previewMusic(album);
@@ -130,7 +130,7 @@ playMusic();
 
 function playKiss(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Belong to the World";
 previewMusic(album);
@@ -140,7 +140,7 @@ playMusic();
 
 function playEchoes(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Montreal";
 previewMusic(album);
@@ -150,7 +150,7 @@ playMusic();
 
 function playThursday(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "Lonely Star";
 previewMusic(album);
@@ -160,7 +160,7 @@ playMusic();
 
 function playBalloons(album){
 // get name of Song in music player
-player.currentTime = 0
+player.currentTime = 0;
 player.pause();
 document.getElementById("song-name").textContent = "High For This";
 previewMusic(album);
